@@ -1,0 +1,131 @@
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    box-sizing: border-box;
+    height: 50px;
+    width: 270px;
+    margin-left: 300px;
+    margin-bottom: 150;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+    
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    box-sizing: border-box;
+    height: 30px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+h2 {
+ color: #4aaaa5;
+ font-weight: bold;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#pic {
+    float:left;
+    margin-right: 15px;  
+    }
+
+nav {
+        float: right;
+    }
+    
+nav ul {
+        display: block;
+    }
+    
+nav ul li {
+        display: inline-block;
+}
+
+.About{
+    background-color:whitesmoke;
+    padding: 15px 15px 15px 45px;
+    margin-top:10px;
+    margin-right: 180px;
+    margin-left: 180px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+.Outer{
+    border-color: grey;
+    border-style: solid;
+    background-image: url('/Basic-Portfolio/assets/images/gravel/gravel.png');
+    padding: 60px;
+}
+ 
+.images img {
+    width: 200px;
+}
+
+.container {
+    position: relative;
+  }
+  
+.text-block {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 50px;
+    padding-right:50px;
+    width:50%;
+ }
+#button {
+        width: 120px;
+        height: 40px;
+        background-color:lightgray;
+        padding: 10px;
+        text-align: center;
+        margin-top: 30px;
+}
+
+input {
+    margin: 5px;
+    margin-left: 18px;
+}
+
+@media screen and (max-width:980px){
+
+}
+
+@media screen and (max-width:768px){
+
+}
+@media screen and (max-width:640px){
+    h1{
+        position: static;
+        width: 100%;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        justify-items: left;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+    .About {
+        position: inherit;
+        width: 75%;
+        background-color:whitesmoke;
+        margin-top:10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        border-style: solid;
+        border-color: lightgrey;
+    }
+}
